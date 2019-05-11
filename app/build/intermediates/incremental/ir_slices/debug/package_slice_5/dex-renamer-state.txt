@@ -1,0 +1,4 @@
+#Fri May 10 23:53:33 ICT 2019
+base.0=/home/anh/Documents/project1/comics_01/app/build/intermediates/transforms/dexMerger/debug/5
+path.0=classes.dex
+renamed.0=classes.dex

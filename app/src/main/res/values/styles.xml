@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorIndigo400</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="TextView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/colorIndigo400</item>
+        <item name="boxStrokeWidth">@dimen/dp_2</item>
+        <item name="titleTextColor">@color/colorIndigo400</item>
+    </style>
+
+    <style name="LoginTextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">@color/colorIndigo400</item>
+        <item name="boxStrokeWidth">2dp</item>
+    </style>
+
+    <style name="ButtonCancel" parent="WrapContent">
+        <item name="android:layout_marginStart">@dimen/dp_24</item>
+        <item name="android:layout_marginTop">@dimen/dp_24</item>
+    </style>
+
+    <style name="ButtonLoginRegister">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">@dimen/dp_50</item>
+        <item name="android:layout_marginTop">@dimen/dp_24</item>
+        <item name="android:background">@drawable/custom_button_login</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/colorGrey50</item>
+        <item name="android:textSize">@dimen/sp_22</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MyEditText" parent="TextView">
+        <item name="android:textColorHint">@color/colorBlueGrey300</item>
+        <item name="android:textColor">@color/colorGrey100</item>
+        <item name="android:layout_marginTop">@dimen/dp_16</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="MyEditTextPassword" parent="MyEditText">
+        <item name="android:inputType">textPassword</item>
+    </style>
+
+    <style name="MyEditTextPersonName" parent="MyEditText">
+        <item name="android:inputType">textPersonName</item>
+    </style>
+
+    <style name="TitleTextView" parent="WrapContent">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:textColor">@color/colorBlack900</item>
+    </style>
+
+    <style name="ContentTextView" parent="WrapContent">
+        <item name="android:textSize">@dimen/sp_14</item>
+        <item name="android:textColor">@color/colorBlue800</item>
+    </style>
+</resources>

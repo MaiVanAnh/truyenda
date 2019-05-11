@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey100">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvSignIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_marginTop="@dimen/dp_8">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvLogin"
+                        android:layout_marginBottom="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_16"
+                        android:text="@string/click_to_sign_in_or_sign_up"
+                        android:textColor="@color/text_clicked"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        style="@style/TitleTextView"/>
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvInformationNotChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_marginTop="@dimen/dp_8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvPersonalInformation"
+                        android:layout_marginStart="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:text="@string/personal_information"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        style="@style/TitleTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvTitleUserName"
+                        android:layout_marginStart="@dimen/dp_8"
+                        android:layout_marginTop="@dimen/dp_16"
+                        android:text="@string/username"
+                        app:layout_constraintStart_toStartOf="@+id/tvPersonalInformation"
+                        app:layout_constraintTop_toBottomOf="@+id/tvPersonalInformation"
+                        style="@style/TitleTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvUserName"
+                        android:layout_marginStart="@dimen/dp_8"
+                        android:layout_marginTop="@dimen/dp_8"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleUserName"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTitleUserName"
+                        style="@style/ContentTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvTitleEmail"
+                        android:layout_marginTop="@dimen/dp_16"
+                        android:text="@string/email"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleUserName"
+                        app:layout_constraintTop_toBottomOf="@+id/tvUserName"
+                        style="@style/TitleTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvEmail"
+                        android:layout_marginBottom="@dimen/dp_8"
+                        android:layout_marginStart="@dimen/dp_8"
+                        android:layout_marginTop="@dimen/dp_8"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleEmail"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTitleEmail"
+                        style="@style/ContentTextView"/>
+
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvInformationCanBeChange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_8"
+                android:layout_marginStart="@dimen/dp_8"
+                android:layout_marginTop="@dimen/dp_8"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvTitleName"
+                        android:layout_marginStart="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_16"
+                        android:text="@string/your_name"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        style="@style/TitleTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvName"
+                        android:layout_marginStart="@dimen/dp_8"
+                        android:layout_marginTop="@dimen/dp_8"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleName"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTitleName"
+                        style="@style/ContentTextView"/>
+
+                    <EditText
+                        android:id="@+id/edName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:ems="10"
+                        android:hint="@string/your_name"
+                        android:inputType="textPersonName"
+                        android:visibility="gone"
+                        app:layout_constraintStart_toStartOf="@+id/tvName"
+                        app:layout_constraintTop_toBottomOf="@+id/tvName"/>
+
+                    <TextView
+                        android:id="@+id/tvTitleGender"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:text="@string/gender"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleName"
+                        app:layout_constraintTop_toBottomOf="@+id/edName"
+                        style="@style/TitleTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvGender"
+                        android:layout_marginStart="@dimen/dp_8"
+                        android:layout_marginTop="@dimen/dp_8"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleGender"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTitleGender"
+                        style="@style/ContentTextView"/>
+
+                    <RadioGroup
+                        android:id="@+id/radioGroup"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:orientation="horizontal"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvGender"
+                        style="@style/WrapContent">
+
+                        <RadioButton
+                            android:id="@+id/rdMaleProfile"
+                            android:layout_marginEnd="@dimen/dp_8"
+                            android:layout_weight="1"
+                            android:text="@string/male"
+                            android:checked="true"
+                            style="@style/WrapContent"/>
+
+                        <RadioButton
+                            android:id="@+id/rdFemaleProfile"
+                            android:layout_weight="1"
+                            android:text="@string/female"
+                            style="@style/WrapContent"/>
+                    </RadioGroup>
+
+                    <TextView
+                        android:id="@+id/tvTitleBirthday"
+                        android:layout_marginTop="@dimen/dp_16"
+                        android:text="@string/your_birthday"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleGender"
+                        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+                        style="@style/TitleTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvBirthday"
+                        android:layout_marginStart="@dimen/dp_8"
+                        android:layout_marginTop="@dimen/dp_8"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleBirthday"
+                        app:layout_constraintTop_toBottomOf="@+id/tvTitleBirthday"
+                        style="@style/ContentTextView"/>
+
+                    <DatePicker
+                        android:id="@+id/dateOfBirthInput"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="@dimen/dp_8"
+                        android:calendarViewShown="false"
+                        android:datePickerMode="spinner"
+                        android:inputType="text|date"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvBirthday"
+                        style="@style/ContentTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvChangePassWord"
+                        android:layout_marginTop="@dimen/dp_16"
+                        android:text="@string/change_password"
+                        android:textColor="@color/text_clicked"
+                        app:layout_constraintStart_toStartOf="@+id/tvTitleBirthday"
+                        app:layout_constraintTop_toBottomOf="@+id/dateOfBirthInput"
+                        style="@style/TitleTextView"/>
+
+                    <android.support.constraint.ConstraintLayout
+                        android:id="@+id/viewInputPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:orientation="vertical"
+                        android:visibility="gone"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/tvChangePassWord">
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_marginStart="@dimen/dp_16"
+                            android:layout_marginTop="@dimen/dp_8"
+                            android:text="@string/old_password"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            style="@style/TitleTextView"/>
+
+                        <EditText
+                            android:id="@+id/edOldPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/dp_8"
+                            android:layout_marginStart="@dimen/dp_8"
+                            android:ems="10"
+                            android:inputType="textPassword"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="@+id/textView2"
+                            app:layout_constraintTop_toBottomOf="@+id/textView2"/>
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_marginTop="@dimen/dp_8"
+                            android:text="@string/new_password"
+                            app:layout_constraintStart_toStartOf="@+id/textView2"
+                            app:layout_constraintTop_toBottomOf="@+id/edOldPassword"
+                            style="@style/TitleTextView"/>
+
+                        <EditText
+                            android:id="@+id/edNewPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/dp_8"
+                            android:layout_marginStart="@dimen/dp_8"
+                            android:ems="10"
+                            android:inputType="textPassword"
+                            app:layout_constraintEnd_toEndOf="@+id/edOldPassword"
+                            app:layout_constraintStart_toStartOf="@+id/textView5"
+                            app:layout_constraintTop_toBottomOf="@+id/textView5"/>
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_marginTop="@dimen/dp_8"
+                            android:text="@string/confirm_password"
+                            app:layout_constraintStart_toStartOf="@+id/textView5"
+                            app:layout_constraintTop_toBottomOf="@+id/edNewPassword"
+                            style="@style/TitleTextView"/>
+
+                        <EditText
+                            android:id="@+id/edConfirmPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/dp_8"
+                            android:layout_marginStart="@dimen/dp_8"
+                            android:ems="10"
+                            android:inputType="textPassword"
+                            app:layout_constraintEnd_toEndOf="@+id/edNewPassword"
+                            app:layout_constraintStart_toStartOf="@+id/textView6"
+                            app:layout_constraintTop_toBottomOf="@+id/textView6"/>
+                    </android.support.constraint.ConstraintLayout>
+
+                    <TextView
+                        android:id="@+id/tvEdit"
+                        android:layout_marginBottom="@dimen/dp_8"
+                        android:layout_marginEnd="@dimen/dp_16"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/edit"
+                        android:textColor="@color/text_clicked"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/viewInputPassword"
+                        style="@style/TitleTextView"/>
+
+                    <TextView
+                        android:id="@+id/tvSave"
+                        android:layout_marginEnd="@dimen/dp_16"
+                        android:text="@string/save"
+                        android:visibility="gone"
+                        android:textColor="@color/text_clicked"
+                        app:layout_constraintEnd_toStartOf="@+id/tvEdit"
+                        app:layout_constraintTop_toTopOf="@+id/tvEdit"
+                        style="@style/TitleTextView"/>
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cvLogout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp_8">
+
+                <android.support.constraint.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tvLogout"
+                        android:layout_marginBottom="@dimen/dp_16"
+                        android:layout_marginTop="@dimen/dp_16"
+                        android:text="@string/log_out"
+                        android:textColor="@color/text_clicked"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.5"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        style="@style/TitleTextView"/>
+                </android.support.constraint.ConstraintLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+    <include
+        layout="@layout/view_loading"
+        android:visibility="gone"/>
+</android.support.constraint.ConstraintLayout>

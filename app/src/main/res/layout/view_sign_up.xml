@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/signUpContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@drawable/bg_register"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:id="@+id/tvRegister"
+                android:layout_marginTop="@dimen/dp_24"
+                android:text="@string/sign_up"
+                android:textColor="@color/colorGrey100"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                style="@style/WrapContent"/>
+
+            <EditText
+                android:id="@+id/edUserName"
+                android:layout_marginEnd="@dimen/dp_24"
+                android:layout_marginStart="@dimen/dp_24"
+                android:hint="@string/username"
+                app:backgroundTint="@color/colorGrey50"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvRegister"
+                style="@style/MyEditTextPersonName"/>
+
+            <EditText
+                android:id="@+id/edName"
+                android:hint="@string/your_name"
+                app:backgroundTint="@color/colorGrey50"
+                app:layout_constraintEnd_toEndOf="@+id/edUserName"
+                app:layout_constraintStart_toStartOf="@+id/edUserName"
+                app:layout_constraintTop_toBottomOf="@+id/edUserName"
+                style="@style/MyEditTextPersonName"/>
+
+            <RadioGroup
+                android:id="@+id/rgGender"
+                android:layout_marginTop="@dimen/dp_8"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edName"
+                style="@style/WrapContent">
+
+                <RadioButton
+                    android:id="@+id/rdMale"
+                    android:layout_marginEnd="@dimen/dp_24"
+                    android:checked="true"
+                    android:text="@string/male"
+                    android:textColor="@color/colorGrey100"
+                    style="@style/WrapContent"/>
+
+                <RadioButton
+                    android:id="@+id/rdFemale"
+                    android:text="@string/female"
+                    android:textColor="@color/colorGrey100"
+                    style="@style/WrapContent"/>
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/edBirthday"
+                android:clickable="true"
+                android:focusable="false"
+                android:hint="@string/your_birthday"
+                android:inputType="date"
+                app:backgroundTint="@color/colorGrey50"
+                app:layout_constraintEnd_toEndOf="@+id/edName"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="@+id/edName"
+                app:layout_constraintTop_toBottomOf="@+id/rgGender"
+                style="@style/MyEditText"/>
+
+
+            <EditText
+                android:id="@+id/edEmail"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                app:backgroundTint="@color/colorGrey50"
+                app:layout_constraintEnd_toEndOf="@+id/edBirthday"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/edBirthday"
+                app:layout_constraintTop_toBottomOf="@+id/edBirthday"
+                style="@style/MyEditText"/>
+
+            <EditText
+                android:id="@+id/edPassword"
+                android:hint="@string/password"
+                app:backgroundTint="@color/colorGrey50"
+                app:layout_constraintEnd_toEndOf="@+id/edEmail"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/edEmail"
+                app:layout_constraintTop_toBottomOf="@+id/edEmail"
+                style="@style/MyEditTextPassword"/>
+
+
+            <EditText
+                android:id="@+id/edConfirmPassword"
+                android:hint="@string/confirm_password"
+                app:backgroundTint="@color/colorGrey50"
+                app:layout_constraintEnd_toEndOf="@+id/edPassword"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/edPassword"
+                app:layout_constraintTop_toBottomOf="@+id/edPassword"
+                style="@style/MyEditTextPassword"/>
+
+            <Button
+                android:id="@+id/btnSignUp"
+                android:layout_marginTop="@dimen/dp_24"
+                android:text="@string/sign_up"
+                app:layout_constraintEnd_toEndOf="@+id/edConfirmPassword"
+                app:layout_constraintStart_toStartOf="@+id/edConfirmPassword"
+                app:layout_constraintTop_toBottomOf="@+id/edConfirmPassword"
+                style="@style/ButtonLoginRegister"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_120"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btnSignUp"/>
+
+            <ImageView
+                android:id="@+id/imgHintOrVisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/dp_24"
+                app:layout_constraintBottom_toTopOf="@+id/edPassword"
+                app:layout_constraintEnd_toEndOf="@+id/edPassword"
+                app:layout_constraintTop_toBottomOf="@+id/edPassword"
+                app:srcCompat="@drawable/ic_hide"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imgCancelSignUp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cancel"
+        style="@style/ButtonCancel"/>
+
+</android.support.constraint.ConstraintLayout>

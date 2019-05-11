@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorGrey100"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarChapter"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorGrey100"
+        android:elevation="@dimen/dp_4"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:layout_collapseMode="pin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/imgThumbComicDetail"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_160"
+        android:layout_marginStart="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarChapter"/>
+
+    <TextView
+        android:id="@+id/tvNameComicDetail"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:layout_marginStart="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:scaleType="centerCrop"
+        android:textColor="@color/colorIndigo900"
+        android:textSize="@dimen/sp_22"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imgThumbComicDetail"
+        app:layout_constraintTop_toBottomOf="@+id/toolbarChapter"
+        style="@style/TextView"/>
+
+    <TextView
+        android:id="@+id/tvAuthorsComicDetail"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:textColor="@color/colorIndigo400"
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvNameComicDetail"
+        app:layout_constraintTop_toBottomOf="@+id/tvNameComicDetail"
+        style="@style/TextView"/>
+
+    <TextView
+        android:id="@+id/tvDateCreatedComicDetail"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:textColor="@color/colorIndigo400"
+        android:textSize="@dimen/sp_16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvAuthorsComicDetail"
+        app:layout_constraintTop_toBottomOf="@+id/tvAuthorsComicDetail"
+        style="@style/TextView"/>
+
+    <TextView
+        android:id="@+id/tvDescriptionComicDetail"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:scrollbars="vertical"
+        android:textColor="@color/colorIndigo400"
+        android:textSize="@dimen/sp_14"
+        app:layout_constraintBottom_toBottomOf="@+id/imgThumbComicDetail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tvDateCreatedComicDetail"
+        app:layout_constraintTop_toBottomOf="@+id/tvDateCreatedComicDetail"
+        app:layout_constraintVertical_bias="0.0"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerChapter"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/dp_35"
+        app:layout_constraintBottom_toTopOf="@+id/viewBookMarkContainer"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgThumbComicDetail"/>
+
+    <ProgressBar
+        android:id="@+id/progressBarDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_24"
+        android:indeterminateDrawable="@drawable/progress"
+        app:layout_constraintEnd_toStartOf="@+id/recyclerChapter"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toEndOf="@+id/recyclerChapter"
+        app:layout_constraintTop_toTopOf="@+id/recyclerChapter"
+        style="?android:attr/progressBarStyle"/>
+
+    <ImageView
+        android:id="@+id/imgFollow"
+        android:layout_width="@dimen/dp_35"
+        android:layout_height="@dimen/dp_35"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDescriptionComicDetail"
+        app:srcCompat="@drawable/ic_heart_not_click"/>
+
+    <LinearLayout
+        android:id="@+id/viewBookMarkContainer"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_50"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:background="@color/colorGrey100"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tvNameChapterBookMark"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:textColor="@color/colorRed700"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/sp_16"/>
+
+        <TextView
+            android:id="@+id/tvReadContinue"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/colorRed700"
+            android:gravity="center"
+            android:text="@string/read_continue"
+            android:textColor="@color/colorGrey50"/>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

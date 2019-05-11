@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/BookMarkAsync.java" description="RequestHandler.sendPutWithToken(url, jsonObject);" line="28" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/RequestHandler.java" description="if (jsonObject != null) {" line="140" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/RequestHandler.java" description="OutputStream os = connection.getOutputStream();" line="141" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/RequestHandler.java" description="String line;" line="154" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/RequestHandler.java" description="StringBuilder sb = new StringBuilder();" line="153" />
+    <bookmark url="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/RequestHandler.java" description="br.close();" line="159" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0606328f-d2d0-47fa-a0b9-f76cd4950fd1" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="comics_01" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../project1/comics_01/app/src/main/java/com/sun_asterisk/comics_01/data/source/ChapterDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../project1/comics_01/app/src/main/java/com/sun_asterisk/comics_01/data/source/ComicDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../project1/comics_01/app/src/main/java/com/sun_asterisk/comics_01/data/source/UserDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../project1/comics_01/app/src/main/java/com/sun_asterisk/comics_01/data/source/local/sqlite/ComicLocalHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/login/LoginPresenter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <folding>
+                <element signature="e#1251#1252#0" expanded="true" />
+                <element signature="e#1316#1317#0" expanded="true" />
+                <element signature="e#1396#1397#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/repository/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/UserDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/UserRemoteDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/GetRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1387">
+              <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/SendMailAsync.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="AnnotationType" />
+        <option value="valueResourceFile" />
+        <option value="Interface" />
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>mode</find>
+      <find>new ArrayAdapter</find>
+      <find>mTvNotify</find>
+      <find>mHistory</find>
+      <find>id</find>
+      <find>refre</find>
+      <find>getA</find>
+      <find>mSwipeRefreshLayout</find>
+      <find>save</find>
+      <find>mContext</find>
+      <find>mProgressBar</find>
+      <find>mHistorySet</find>
+      <find>400</find>
+      <find>name</find>
+      <find>color</find>
+      <find>with</find>
+      <find>mLoginContainer</find>
+      <find>mCach</find>
+      <find>setViewLogin</find>
+      <find>mTvEdit</find>
+      <find>mChapterName</find>
+      <find>Prese</find>
+      <find>mPresenter</find>
+      <find>mComicRepository</find>
+      <find>isFollow</find>
+      <find>update</find>
+      <find>bookmarks/</find>
+      <find>setIdChapterCurrent</find>
+      <find>mIsFollow</find>
+      <find>Post</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/src/main/res/layout</dir>
+      <dir>$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/profile</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../project1/comics_01" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="task#9785_add_event_for_read_history" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/read/ReadPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetChapterJson.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetChapterAsyncTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetContentChapterAsyncTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetContentChapterJson.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/utils/CategoryNavigation.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/read/ReadComicActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/custom_btn_follow.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/menu/option_follow.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/home/HomeFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/ParseUserWithJson.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/OnLoginListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/OnObjectListener.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/main/MainPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_comic_detail.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/GetAccountAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/BookMarkAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/comic/ComicDetailContract.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/CheckFollowAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/repository/ChapterRepository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/ChapterDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/ChapterRemoteDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/FollowAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/comic/ComicDetailPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetComicJson.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/RequestHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/model/Comic.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetComicFollowAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/follow/FollowContract.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/follow/FollowPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/repository/ComicRepository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/ComicDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/ComicRemoteDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/model/BookMark.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/ParseDataWithJson.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/readhistory/adapter/ComicBookShelfAdapter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/comic/ComicDetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/follow/FollowComicFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/profile/ProfileFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/signup/SignUpActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/login/LoginContract.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/login/LoginPresenter.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/UserDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/UserRemoteDataSource.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/utils/Constant.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/SendMailAsync.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/GetRequest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/login/LoginActivity.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="25" />
+    <option name="width" value="1366" />
+    <option name="height" value="692" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <hideEmptyPackages AndroidView="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="comics_01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="comics_01" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="comics_01" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="l&#9;FILE&#9;file:///home/anh/Documents/project1/comics_01/local.properties" />
+    <property name="add_unversioned_files" value="true" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="device.picker.selection" value="Pixel_2_API_25" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../KH_Music-master" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1556851881388" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/menu" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sun_asterisk.comics_01.data.source.local.sharedprefs" />
+      <recent name="com.sun_asterisk.comics_01.data.model" />
+      <recent name="com.sun_asterisk.comics_01.screen.main" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="com.sun_asterisk.comics_01.screen.signup" />
+      <recent name="com.sun_asterisk.comics_01.screen.register" />
+      <recent name="com.sun_asterisk.comics_01.screen.login" />
+      <recent name="com.sun_asterisk.comics_01.screen.search" />
+      <recent name="com.sun_asterisk.comics_01.screen.readcomic" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sun_asterisk.comics_01.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/color" />
+      <recent name="$PROJECT_DIR$/app/src/main/res/colors" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0606328f-d2d0-47fa-a0b9-f76cd4950fd1" name="Default Changelist" comment="" />
+      <created>1554263691998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554263691998</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1366" height="743" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908257" visible="true" weight="0.28636363" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="3" sideWeight="0.50091743" side_tool="true" weight="0.27272728" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.64169383" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49848485" weight="0.67752445" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5022727" side_tool="true" weight="0.78827363" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49772727" weight="0.5635179" />
+      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.49924242" visible="true" weight="0.257329" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.22727273" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" show_stripe_button="false" weight="0.24918567" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.73735726" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49848485" weight="0.262215" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Thumbnails" order="10" weight="0.32899022" />
+      <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.50318474" side_tool="true" weight="0.15454546" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" sideWeight="0.49878934" weight="0.32954547" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" sideWeight="0.4968153" weight="0.2689394" />
+      <window_info anchor="right" id="Assistant" order="6" visible="true" weight="0.32954547" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49908257" visible="true" weight="0.34924242" />
+      <window_info id="Structure" order="1" side_tool="true" />
+      <window_info id="Captures" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="3" sideWeight="0.50091743" side_tool="true" weight="0.27272728" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Resources Explorer" order="8" weight="0.32954547" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.64169383" />
+      <window_info anchor="bottom" id="Logcat" order="1" sideWeight="0.49848485" weight="0.64169383" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.5022727" side_tool="true" weight="0.78827363" />
+      <window_info anchor="bottom" id="Terminal" order="3" sideWeight="0.49772727" visible="true" weight="0.20846905" />
+      <window_info anchor="bottom" id="Build" order="4" sideWeight="0.49924242" weight="0.257329" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.22727273" />
+      <window_info anchor="bottom" id="Android Profiler" order="6" weight="0.24918567" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.73735726" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49848485" weight="0.262215" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32899022" />
+      <window_info anchor="bottom" id="Thumbnails" order="10" weight="0.32899022" />
+      <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.50318474" side_tool="true" weight="0.15454546" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" sideWeight="0.49878934" weight="0.32954547" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Preview" order="5" sideWeight="0.4968153" weight="0.2689394" />
+      <window_info anchor="right" id="Assistant" order="6" visible="true" weight="0.32954547" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/utils/StringUtils.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetComicSearchAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetChapterJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetComicAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetComicJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/GetComicFollowAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#376#377#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/comic/ComicDetailContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/comic/ComicDetailPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="82" column="54" lean-forward="true" selection-start-line="82" selection-start-column="54" selection-end-line="82" selection-end-column="54" />
+          <folding>
+            <element signature="e#2027#2028#0" expanded="true" />
+            <element signature="e#2084#2085#0" expanded="true" />
+            <element signature="e#2277#2278#0" expanded="true" />
+            <element signature="e#2332#2333#0" expanded="true" />
+            <element signature="e#2412#2413#0" expanded="true" />
+            <element signature="e#2464#2465#0" expanded="true" />
+            <element signature="e#2794#2795#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/follow/FollowContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="24" column="27" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/readhistory/OnDeleteItemListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/follow/FollowPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1346#1347#0" expanded="true" />
+            <element signature="e#1412#1413#0" expanded="true" />
+            <element signature="e#1492#1493#0" expanded="true" />
+            <element signature="e#1555#1556#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/repository/ComicRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/ComicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/ComicRemoteDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/fetchjson/ParseDataWithJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2964">
+          <caret line="169" column="20" selection-start-line="169" selection-start-column="20" selection-end-line="169" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/model/BookMark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="60" column="76" selection-start-line="60" selection-start-column="76" selection-end-line="60" selection-end-column="76" />
+          <folding>
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/readhistory/adapter/ComicBookShelfAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="105" column="13" selection-start-line="105" selection-start-column="13" selection-end-line="105" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Android/Sdk/sources/android-28/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="1117" selection-start-line="1117" selection-end-line="1117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/model/Comic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="857">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+          <folding>
+            <element signature="e#2246#2247#0" expanded="true" />
+            <element signature="e#2272#2273#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/comic/ComicDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="196" column="67" selection-start-line="196" selection-start-column="67" selection-end-line="196" selection-end-column="67" />
+          <folding>
+            <element signature="e#7835#7836#0" expanded="true" />
+            <element signature="e#7909#7910#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/readhistory/ReadHistoryFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="e#1462#1463#0" expanded="true" />
+            <element signature="e#1510#1511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/utils/StringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/bookshelf/subfragment/follow/FollowComicFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="e#1605#1606#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#3725#3726#0" expanded="true" />
+            <element signature="e#3788#3789#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/view_login.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1482">
+          <caret line="78" column="41" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/profile/ProfileFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="317" column="8" selection-start-line="317" selection-start-column="8" selection-end-line="318" selection-end-column="27" />
+          <folding>
+            <element signature="e#12340#12642#0" expanded="true" />
+            <element signature="e#12641#12642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/signup/SignUpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1259">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/profile/ProfileContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/OnSignUpListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/OnListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/OnFetchDataJsonListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/OnObjectListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/ChapterRemoteDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/RequestAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="e#471#472#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/BookMarkAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-72">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/CheckFollowAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/FollowAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/GetAccountAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/ParseUserWithJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/utils/Constant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-19">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/RequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/login/LoginActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1463">
+          <caret line="106" column="35" selection-start-line="106" selection-start-column="35" selection-end-line="106" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/login/LoginContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project1/comics_01/app/src/main/java/com/sun_asterisk/comics_01/data/source/ChapterDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project1/comics_01/app/src/main/java/com/sun_asterisk/comics_01/data/source/ComicDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project1/comics_01/app/src/main/java/com/sun_asterisk/comics_01/data/source/UserDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/screen/login/LoginPresenter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1316#1317#0" expanded="true" />
+            <element signature="e#1396#1397#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="51" column="31" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/UserDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/UserRemoteDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="49" column="37" selection-start-line="49" selection-start-column="37" selection-end-line="49" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/GetRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1387">
+          <caret line="86" column="33" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/sun_asterisk/comics_01/data/source/remote/request/SendMailAsync.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../project1/comics_01/app/src/main/java/com/sun_asterisk/comics_01/data/source/local/sqlite/ComicLocalHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="37" column="63" selection-start-line="37" selection-start-column="63" selection-end-line="37" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

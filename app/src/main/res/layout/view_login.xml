@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.6"
+        android:background="@drawable/bg_login"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="60dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="@dimen/dp_120"
+        android:layout_height="@dimen/dp_120"
+        android:layout_marginTop="@dimen/dp_60"
+        android:contentDescription="@string/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flash_screen"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/name_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_8"
+        android:textColorHint="@color/colorIndigo200"
+        app:layout_constraintTop_toBottomOf="@id/imageView3"
+        style="@style/LoginTextInputLayoutStyle">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/account"
+            android:singleLine="true"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_text_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_8"
+        android:textColorHint="@color/colorIndigo200"
+        app:layout_constraintTop_toBottomOf="@id/name_text_input"
+        style="@style/LoginTextInputLayoutStyle">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:singleLine="true"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_marginEnd="@dimen/dp_8"
+        android:layout_marginStart="@dimen/dp_8"
+        android:text="@string/login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvForgotPassword"
+        style="@style/ButtonLoginRegister"/>
+
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_marginStart="@dimen/dp_8"
+        android:layout_marginTop="@dimen/dp_8"
+        android:text="@string/forgot_password"
+        android:textColor="@color/text_clicked"
+        android:textSize="@dimen/sp_16"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/password_text_input"
+        app:layout_constraintTop_toBottomOf="@+id/password_text_input"
+        style="@style/WrapContent"/>
+
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:layout_marginBottom="@dimen/dp_24"
+        android:text="@string/register"
+        android:textColor="@color/text_clicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        style="@style/WrapContent"/>
+
+    <ImageView
+        android:id="@+id/imgCancel"
+        android:contentDescription="@string/cancel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_cancel"
+        style="@style/ButtonCancel"/>
+
+    <ImageView
+        android:id="@+id/imgEye"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/password_text_input"
+        app:layout_constraintEnd_toEndOf="@+id/password_text_input"
+        app:layout_constraintTop_toBottomOf="@+id/password_text_input"
+        app:srcCompat="@drawable/ic_hide"/>
+
+</android.support.constraint.ConstraintLayout>
